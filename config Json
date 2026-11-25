@@ -1,1 +1,13 @@
+{
+  "config_version": 1,
 
+  "ads_enabled": true,
+
+  "app_open_enabled": true,
+  "app_open_ad_unit_id": "ca-app-pub-6658570461438784/3507642260",
+
+  "interstitial_enabled": true,
+  "interstitial_ad_unit_id": "ca-app-pub-6658570461438784/1508862986",
+
+  "fetch_interval_minutes": 1
+}
