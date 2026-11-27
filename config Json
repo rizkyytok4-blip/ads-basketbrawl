@@ -1,13 +1,26 @@
 {
   "config_version": 1,
-
   "ads_enabled": true,
 
-  "app_open_enabled": true,
-  "app_open_ad_unit_id": "ca-app-pub-6658570461438784/3507642260",
+  "admob": {
+    "app_id": "ca-app-pub-6658570461438784~7215326719",
 
-  "interstitial_enabled": true,
-  "interstitial_ad_unit_id": "ca-app-pub-6658570461438784/1508862986",
+    "interstitial": {
+      "enabled": true,
+      "ad_unit_id": "ca-app-pub-6658570461438784/6013925685",
+      "show_every": 3,
+      "cooldown_seconds": 120
+    },
 
-  "fetch_interval_minutes": 1
+    
+    "app_open": {
+      "enabled": false,
+      "ad_unit_id": "ca-app-pub-6658570461438784/9229000555"
+    }
+  },
+
+  "update": {
+    "check_interval_minutes": 5,
+    "fallback_to_local_config": true
+  }
 }
